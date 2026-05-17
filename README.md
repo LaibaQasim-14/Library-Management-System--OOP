@@ -1,8 +1,8 @@
-#Library Management System
+# Library Management System
 
 A console-based Library Management System developed in C++ using Object-Oriented Programming (OOP) concepts. The project automates core library operations including user management, resource handling, borrowing, fines, reservations, notifications, analytics, and report generation.
 
-##Features
+## Features
 Member & Admin authentication
 Multiple admin roles with permission hierarchy
 Role-based access control
@@ -23,7 +23,7 @@ Password hashing, input validation, and account lockout handling
 File-based persistent data storage
 Modular architecture using centralized LibraryManager
 
-##OOP Concepts Used
+## OOP Concepts Used
 Encapsulation
 Inheritance
 Polymorphism
@@ -33,13 +33,7 @@ Composition & Aggregation
 Operator Overloading
 File Handling
 
-##Author 
+## Author 
 Laiba
 
 
-
-
-
-Author
-
-Laiba Qasim
