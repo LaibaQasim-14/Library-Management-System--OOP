@@ -52,134 +52,27 @@ Administrators can efficiently manage:
 
 ---
 
-# 2. HOW TO RUN THE PROJECT
+# 2. SYSTEM INITIALIZATION
 
-## PREREQUISITES
+On the first run, the system automatically initializes all required files and folders.
 
-You need one of the following C++ compilers:
+## First-Time Setup
 
-- g++ (MinGW recommended)
-- Visual Studio (MSVC)
-
-You also need:
-
-- Visual Studio Code
-- Windows Terminal / PowerShell
+1. Register the **Super Admin**
+2. Enter the Admin Access Code
+3. Login using admin credentials
+4. Add members and resources
+5. Start using the system
 
 ---
-
-## STEP 01 — FIRST RUN WORKSPACE SETUP
-
-### Step 1.0 — Extract ZIP on Desktop
-
-1. Locate the downloaded ZIP file
-2. Right-click → Extract All
-3. Extract to Desktop
-
----
-
-### Step 1.1 — Create Folder
-
-Create a folder named:
-
-```text
-LMS
-```
-
----
-
-### Step 1.2 — Move Files
-
-Move all extracted files into:
-
-```text
-Desktop/LMS
-```
-
----
-
-### Step 1.3 — Verify Files
-
-Ensure the folder contains:
-
-- 22 `.h` files
-- 22 `.cpp` files
-- UML Diagram
-- Report
-- README file
-
----
-
-# 3. OPEN PROJECT IN VS CODE
-
-1. Open VS Code
-2. Click:
-
-```text
-File → Open Folder
-```
-
-3. Select:
-
-```text
-Desktop/LMS
-```
-
----
-
-# 4. OPEN TERMINAL
-
-Open terminal using:
-
-```text
-Terminal → New Terminal
-```
-
-Ensure PowerShell is active.
-
-Example:
-
-```powershell
-PS C:\Users\YourName\Desktop\LMS>
-```
-
----
-
-# 5. COMPILE THE PROJECT
-
-Run:
-
-```bash
-g++ -std=c++17 main.cpp User.cpp Member.cpp Admin.cpp Usermanager.cpp ^
-Resource.cpp Book.cpp Ebook.cpp BorrowRecord.cpp FineManager.cpp ^
-ReportGenerator.cpp LibraryManager.cpp Validator.cpp InputHelper.cpp ^
-Notification.cpp AuditLogger.cpp SecurityUtils.cpp AdminAnalytics.cpp ^
-AdvancedSearch.cpp BookCopies.cpp BookRating.cpp BorrowExtension.cpp -o app
-```
-
----
-
-# 6. RUN THE APPLICATION
-
-```bash
-.\app
-```
-
-or
-
-```bash
-./app
-```
-
----
-
-# 7. FIRST-TIME SYSTEM INITIALIZATION
 
 ## Admin Access Code
 
 ```text
 LibraryAdmin2026!
 ```
+
+---
 
 ## Demo Credentials
 
@@ -190,32 +83,9 @@ Password : Neduet@52
 
 ---
 
-# 8. DATA FILES (PERSISTENT STORAGE)
+# 3. SYSTEM FEATURES
 
-| File | Description |
-|---|---|
-| users.txt | Registered members and admins |
-| resources.txt | Books and eBooks catalogue |
-| borrow_records.txt | Borrow/return history |
-| notifications.txt | Notification storage |
-| reservations.txt | Reservation records |
-| waitlist.txt | Waitlist queue |
-| audit_log.txt | Admin activity logs |
-
----
-
-## Optional Folders
-
-| Folder | Description |
-|---|---|
-| ratings/ | Stores ratings and reviews |
-| extensions/ | Stores extension requests |
-
----
-
-# 9. SYSTEM FEATURES
-
-## 9.1 USER ACCOUNT MANAGEMENT
+## 3.1 USER ACCOUNT MANAGEMENT
 
 - Member and admin registration
 - Secure login system
@@ -226,7 +96,7 @@ Password : Neduet@52
 
 ---
 
-## 9.2 RESOURCE MANAGEMENT
+## 3.2 RESOURCE MANAGEMENT
 
 - Add/update/remove books and eBooks
 - ISBN management
@@ -235,7 +105,7 @@ Password : Neduet@52
 
 ---
 
-## 9.3 SEARCH & FILTERING
+## 3.3 SEARCH & FILTERING
 
 - Search by title
 - Search by author
@@ -245,7 +115,7 @@ Password : Neduet@52
 
 ---
 
-## 9.4 BORROWING & RETURN
+## 3.4 BORROWING & RETURN
 
 - Borrow physical books and eBooks
 - Membership-based borrowing limits
@@ -256,7 +126,7 @@ Password : Neduet@52
 
 ---
 
-## 9.5 RESERVATION & WAITLIST
+## 3.5 RESERVATION & WAITLIST
 
 - Reserve physical resources
 - FIFO waitlist system
@@ -264,7 +134,7 @@ Password : Neduet@52
 
 ---
 
-## 9.6 FINE MANAGEMENT
+## 3.6 FINE MANAGEMENT
 
 - Automatic overdue fines
 - Fine payment using member balance
@@ -273,7 +143,7 @@ Password : Neduet@52
 
 ---
 
-## 9.7 NOTIFICATION SYSTEM
+## 3.7 NOTIFICATION SYSTEM
 
 - Borrow/return alerts
 - Reservation notifications
@@ -283,7 +153,7 @@ Password : Neduet@52
 
 ---
 
-## 9.8 REPORTS & ANALYTICS
+## 3.8 REPORTS & ANALYTICS
 
 - Borrowing reports
 - Member activity analytics
@@ -292,7 +162,7 @@ Password : Neduet@52
 
 ---
 
-## 9.9 BOOK RATINGS & REVIEWS
+## 3.9 BOOK RATINGS & REVIEWS
 
 - 1–5 star ratings
 - Written reviews
@@ -301,7 +171,7 @@ Password : Neduet@52
 
 ---
 
-## 9.10 SECURITY
+## 3.10 SECURITY
 
 - Password hashing with salt
 - Secure admin registration code
@@ -312,7 +182,7 @@ Password : Neduet@52
 
 ---
 
-# 10. ADMIN ROLE HIERARCHY
+# 4. ADMIN ROLE HIERARCHY
 
 | Role | Permissions |
 |---|---|
@@ -324,7 +194,7 @@ Password : Neduet@52
 
 ---
 
-# 11. MEMBERSHIP TIERS & FEE STRUCTURE
+# 5. MEMBERSHIP TIERS & FEE STRUCTURE
 
 | Tier | Borrow Limit | Borrow Period | Annual Fee |
 |---|---|---|---|
@@ -345,7 +215,7 @@ Password : Neduet@52
 
 ---
 
-# 12. OOP CONCEPTS IMPLEMENTED
+# 6. OOP CONCEPTS IMPLEMENTED
 
 | Concept | Implementation |
 |---|---|
@@ -361,7 +231,7 @@ Password : Neduet@52
 
 ---
 
-# 13. PROJECT STRUCTURE
+# 7. PROJECT STRUCTURE
 
 ```text
 LibraryManagementSystem/
@@ -389,20 +259,12 @@ LibraryManagementSystem/
 ├── BookRating.h / BookRating.cpp
 ├── BorrowExtension.h / BorrowExtension.cpp
 │
-├── users.txt
-├── resources.txt
-├── borrow_records.txt
-├── notifications.txt
-├── reservations.txt
-├── waitlist.txt
-├── audit_log.txt
-│
 └── README.md
 ```
 
 ---
 
-# 14. IMPLEMENTATION STATUS
+# 8. IMPLEMENTATION STATUS
 
 ## Fully Implemented
 
@@ -435,7 +297,7 @@ LibraryManagementSystem/
 
 ---
 
-# 15. FUTURE IMPROVEMENTS
+# 9. FUTURE IMPROVEMENTS
 
 - MySQL database integration
 - GUI/web interface
