@@ -307,6 +307,6 @@ LibraryManagementSystem/
 
 ---
 
-# 📌 License
+# 🎓 Academic Project
 
-This project was developed for academic purposes as part of the CS-116 Object-Oriented Programming course at NED University.
+Developed as a semester project for the CS-116 Object-Oriented Programming course at NED University of Engineering & Technology.
